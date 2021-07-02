@@ -3,11 +3,17 @@ kind: Component
 metadata:
   name: platform-whoiam
   description: An example of a Backstage application.
-  # Example for optional annotations
-  # annotations:
-    # github.com/project-slug: backstage/backstage
+  links:
+    - url: https://empathy.co
+      title: Empathy's website
+      icon: web
+    - url: https://empathyco.github.io/platform-whoiam/
+      title: Who I Am example site
+      icon: web
+  annotations:
+    github.com/project-slug: empathyco/platform-backstage
     # backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
 spec:
-  type: website
-  owner: platform@empathy.co
+  type: Website
+  owner: platform
   lifecycle: experimental

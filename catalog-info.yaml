@@ -15,7 +15,6 @@ metadata:
   annotations:
     github.com/project-slug: empathyco/platform-whoiam
     backstage.io/edit-url: https://github.com/empathyco/platform-whoiam/edit/main/catalog-info.yaml
-    lighthouse.com/website-url: https://empathyco.github.io/platform-whoiam/
     # backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
 spec:
   type: Website

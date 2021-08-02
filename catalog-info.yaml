@@ -3,15 +3,19 @@ kind: Component
 metadata:
   name: WhoIAm
   description: An example of a Backstage application.
+  tags:
+    - website
+    - platform
+    - tutorial
+    - git
   links:
-    - url: https://empathy.co
-      title: Empathy's website
-      icon: web
     - url: https://empathyco.github.io/platform-whoiam/
       title: Who I Am example site
       icon: web
   annotations:
     github.com/project-slug: empathyco/platform-backstage
+    backstage.io/edit-url: https://github.com/empathyco/platform-whoiam/edit/main/catalog-info.yaml
+    lighthouse.com/website-url: https://empathyco.github.io/platform-whoiam/
     # backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
 spec:
   type: Website

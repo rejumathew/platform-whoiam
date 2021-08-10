@@ -1,8 +1,8 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: WhoIAm
-  description: An example of a Backstage application.
+  name: whoiam
+  description: Part of git's brownbag exercise.
   tags:
     - website
     - platform
@@ -17,6 +17,6 @@ metadata:
     backstage.io/edit-url: https://github.com/empathyco/platform-whoiam/edit/main/catalog-info.yaml
     # backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
 spec:
-  type: Website
+  type: website
   owner: platform
-  lifecycle: experimental
+  lifecycle: production

@@ -18,5 +18,5 @@ metadata:
     # backstage.io/techdocs-ref: url:https://github.com/backstage/backstage
 spec:
   type: website
-  owner: platform
+  owner: platform-engineering
   lifecycle: production
